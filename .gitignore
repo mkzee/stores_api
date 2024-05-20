@@ -1,0 +1,25 @@
+# Ignore Node.js modules
+node_modules/
+
+# Ignore any logs or temporary files
+logs/
+*.log
+npm-debug.log*
+
+# Ignore environment-specific configuration files
+.env
+
+# Ignore generated files
+dist/
+build/
+
+# Ignore local development files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Ignore package-lock.json for npm
+package-lock.json
+
+# Ignore yarn.lock for Yarn
+yarn.lock
